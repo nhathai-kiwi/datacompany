@@ -1,0 +1,792 @@
+/tien-giang/huyen-cai-be 279 Huyện Cái Bè
+/tien-giang/thi-xa-cai-lay 1 Thị Xã Cai Lậy
+/tien-giang/huyen-cai-lay 570 Huyện Cai Lậy
+/tien-giang/huyen-chau-thanh 278 Huyện Châu Thành
+/tien-giang/huyen-cho-gao 277 Huyện Chợ Gạo
+/tien-giang/thi-xa-go-cong 385 Thị Xã Gò Công
+/tien-giang/huyen-go-cong-dong 571 Huyện Gò Công Đông
+/tien-giang/huyen-go-cong-tay 580 Huyện Gò Công Tây
+/tien-giang/huyen-tan-phu-dong 688 Huyện Tân Phú Đông
+/tien-giang/tinh-tien-giang 572 Tỉnh Tiền Giang
+/tien-giang/huyen-tan-phuoc 372 Huyện Tân Phước
+/tien-giang/thanh-pho-my-tho 289 Thành Phố Mỹ Tho
+/hung-yen/huyen-an-thi 550 Huyện Ân Thi
+/hung-yen/huyen-khoai-chau 240 Huyện Khoái Châu
+/hung-yen/huyen-phu-cu 555 Huyện Phù Cừ
+/hung-yen/huyen-kim-dong 301 Huyện Kim Động
+/hung-yen/huyen-van-giang 300 Huyện Văn Giang
+/hung-yen/huyen-my-hao 5 Huyện Mỹ Hào
+/hung-yen/thanh-pho-hung-yen 3 Thành Phố Hưng Yên
+/hung-yen/tinh-hung-yen 658 Tỉnh Hưng Yên
+/hung-yen/huyen-yen-my 2 Huyện Yên Mỹ
+/hung-yen/huyen-van-lam 39 Huyện Văn Lâm
+/hung-yen/huyen-tien-lu 586 Huyện Tiên Lữ
+/ha-noi/huyen-dong-anh 135 Huyện Đông Anh
+/ha-noi/quan-ba-dinh 73 Quận Ba Đình
+/ha-noi/quan-hai-ba-trung 134 Quận Hai Bà Trưng
+/ha-noi/huyen-ba-vi 427 Huyện Ba Vì
+/ha-noi/quan-bac-tu-liem 97 Quận Bắc Từ Liêm
+/ha-noi/quan-long-bien 182 Quận Long Biên
+/ha-noi/quan-cau-giay 29 Quận Cầu Giấy
+/ha-noi/huyen-chuong-my 28 Huyện Chương Mỹ
+/ha-noi/quan-dong-da 25 Quận Đống Đa
+/ha-noi/huyen-dan-phuong 291 Huyện Đan Phượng
+/ha-noi/quan-ha-dong 24 Quận Hà Đông
+/ha-noi/huyen-hoai-duc 115 Huyện Hoài Đức
+/ha-noi/huyen-my-duc 342 Huyện Mỹ Đức
+/ha-noi/huyen-gia-lam 30 Huyện Gia Lâm
+/ha-noi/thanh-pho-ha-noi 660 Thành Phố Hà Nội
+/ha-noi/quan-tay-ho 124 Quận Tây Hồ
+/ha-noi/huyen-ung-hoa 343 Huyện Ứng Hoà
+/ha-noi/quan-hoan-kiem 27 Quận Hoàn Kiếm
+/ha-noi/quan-hoang-mai 133 Quận Hoàng Mai
+/ha-noi/huyen-thanh-tri 71 Huyện Thanh Trì
+/ha-noi/huyen-thuong-tin 72 Huyện Thường Tín
+/ha-noi/huyen-thach-that 148 Huyện Thạch Thất
+/ha-noi/huyen-me-linh 198 Huyện Mê Linh
+/ha-noi/huyen-soc-son 220 Huyện Sóc Sơn
+/ha-noi/huyen-thanh-oai 256 Huyện Thanh Oai
+/ha-noi/huyen-phu-xuyen 294 Huyện Phú Xuyên
+/ha-noi/huyen-phuc-tho 320 Huyện Phúc Thọ
+/ha-noi/huyen-quoc-oai 424 Huyện Quốc Oai
+/ha-noi/huyen-tu-liem 659 Huyện Từ Liêm
+/ha-noi/quan-nam-tu-liem 4 Quận Nam Từ Liêm
+/ha-noi/quan-thanh-xuan 26 Quận Thanh Xuân
+/ha-noi/thi-xa-son-tay 429 Thị Xã Sơn Tây
+/tp-ho-chi-minh/quan-1 9 Quận 1
+/tp-ho-chi-minh/quan-10 15 Quận 10
+/tp-ho-chi-minh/quan-11 14 Quận 11
+/tp-ho-chi-minh/quan-12 76 Quận 12
+/tp-ho-chi-minh/quan-2 8 Quận 2
+/tp-ho-chi-minh/quan-3 6 Quận 3
+/tp-ho-chi-minh/quan-4 10 Quận 4
+/tp-ho-chi-minh/quan-5 18 Quận 5
+/tp-ho-chi-minh/quan-6 160 Quận 6
+/tp-ho-chi-minh/quan-7 31 Quận 7
+/tp-ho-chi-minh/quan-8 12 Quận 8
+/tp-ho-chi-minh/quan-9 132 Quận 9
+/tp-ho-chi-minh/huyen-nha-be 161 Huyện Nhà Bè
+/tp-ho-chi-minh/quan-binh-tan 7 Quận Bình Tân
+/tp-ho-chi-minh/huyen-binh-chanh 13 Huyện Bình Chánh
+/tp-ho-chi-minh/quan-binh-thanh 17 Quận Bình Thạnh
+/tp-ho-chi-minh/quan-tan-binh 75 Quận Tân Bình
+/tp-ho-chi-minh/huyen-can-gio 406 Huyện Cần Giờ
+/tp-ho-chi-minh/huyen-cu-chi 80 Huyện Củ Chi
+/tp-ho-chi-minh/thanh-pho-ho-chi-minh 657 Thành Phố Hồ Chí Minh
+/tp-ho-chi-minh/quan-thu-duc 16 Quận Thủ Đức
+/tp-ho-chi-minh/quan-go-vap 74 Quận Gò Vấp
+/tp-ho-chi-minh/huyen-hoc-mon 77 Huyện Hóc Môn
+/tp-ho-chi-minh/quan-phu-nhuan 78 Quận Phú Nhuận
+/tp-ho-chi-minh/quan-tan-phu 79 Quận Tân Phú
+/ca-mau/huyen-thoi-binh 195 Huyện Thới Bình
+/ca-mau/thanh-pho-ca-mau 11 Thành Phố  Cà Mau
+/ca-mau/tinh-ca-mau 729 Tỉnh Cà Mau
+/ca-mau/huyen-cai-nuoc 281 Huyện Cái Nước
+/ca-mau/huyen-nam-can 249 Huyện Năm Căn
+/ca-mau/huyen-dam-doi 127 Huyện Đầm Dơi
+/ca-mau/huyen-ngoc-hien 174 Huyện Ngọc Hiển
+/ca-mau/huyen-tran-van-thoi 324 Huyện Trần Văn Thời
+/ca-mau/huyen-u-minh 511 Huyện U Minh
+/ca-mau/huyen-phu-tan 534 Huyện Phú Tân
+/dac-lac/huyen-krong-a-na 621 Huyện Krông A Na
+/dac-lac/huyen-krong-bong 311 Huyện Krông Bông
+/dac-lac/huyen-krong-buk 514 Huyện Krông Buk
+/dac-lac/thi-xa-buon-ho 359 Thị Xã Buôn Hồ
+/dac-lac/huyen-buon-don 592 Huyện Buôn Đôn
+/dac-lac/huyen-cu-mgar 158 Huyện Cư M'gar
+/dac-lac/huyen-cu-kuin 510 Huyện Cư Kuin
+/dac-lac/huyen-cu-jut-het-h-luc 761 Huyện Cư Jút (hêt H.lực)
+/dac-lac/tinh-dak-lak 551 Tỉnh Đắk Lắk
+/dac-lac/huyen-dak-mil-het-h-luc 750 Huyện Đắk Mil (hêt H.lực)
+/dac-lac/huyen-dak-nong-het-h-luc 758 Huyện Đắk Nông (hêt H.lực)
+/dac-lac/huyen-dak-rlap-het-h-luc 759 Huyện Đắk R'Lấp (hêt H.lực)
+/dac-lac/huyen-ea-hleo 141 Huyện Ea H'leo
+/dac-lac/huyen-ea-kar 159 Huyện Ea Kar
+/dac-lac/huyen-ea-sup 408 Huyện Ea Súp
+/dac-lac/huyen-krong-no-het-h-luc 760 Huyện Krông Nô (hêt H.lực)
+/dac-lac/huyen-krong-pak 245 Huyện Krông Pắk
+/dac-lac/huyen-krong-nang 553 Huyện Krông Năng
+/dac-lac/huyen-mdrak 567 Huyện M'ĐrắK
+/dac-lac/huyen-lak 691 Huyện Lắk
+/dac-lac/thanh-phobuon-ma-thuot 19 Thành PhốBuôn Ma Thuột
+/dac-lac/tp-buon-ma-thuot 778 Tp.buôn Ma Thuột
+/nam-dinh/huyen-vu-ban 355 Huyện Vụ Bản
+/nam-dinh/thanh-pho-nam-dinh 20 Thành Phố Nam Định
+/nam-dinh/tinh-nam-dinh 573 Tỉnh Nam Định
+/nam-dinh/huyen-giao-thuy 523 Huyện Giao Thuỷ
+/nam-dinh/huyen-hai-hau 465 Huyện Hải Hậu
+/nam-dinh/huyen-nghia-hung 81 Huyện Nghĩa Hưng
+/nam-dinh/huyen-nam-truc 122 Huyện Nam Trực
+/nam-dinh/huyen-y-yen 233 Huyện Ý Yên
+/nam-dinh/huyen-xuan-truong 304 Huyện Xuân Trường
+/nam-dinh/huyen-truc-ninh 352 Huyện Trực Ninh
+/nam-dinh/huyen-my-loc 353 Huyện Mỹ Lộc
+/quang-ninh/huyen-ba-che 637 Huyện Ba Chẽ
+/quang-ninh/thanh-pho-uong-bi 140 Thành Phố Uông Bí
+/quang-ninh/huyen-binh-lieu 144 Huyện Bình Liêu
+/quang-ninh/huyen-hoanh-bo 360 Huyện Hoành Bồ
+/quang-ninh/thanh-pho-mong-cai 224 Thành Phố Móng Cái
+/quang-ninh/thanh-pho-cam-pha 157 Thành Phố Cẩm Phả
+/quang-ninh/huyen-co-to 492 Huyện Cô Tô
+/quang-ninh/huyen-dam-ha 638 Huyện Đầm Hà
+/quang-ninh/huyen-van-don 430 Huyện Vân Đồn
+/quang-ninh/thi-xa-dong-trieu 244 Thị Xã Đông Triều
+/quang-ninh/thanh-pho-ha-long 21 Thành Phố Hạ Long
+/quang-ninh/huyen-hai-ha 371 Huyện Hải Hà
+/quang-ninh/huyen-tien-yen 544 Huyện Tiên Yên
+/quang-ninh/tinh-quang-ninh 722 Tỉnh Quảng Ninh
+/quang-ninh/thi-xa-quang-yen 627 Thị Xã  Quảng Yên
+/dak-nong/huyen-cu-jut 228 Huyện Cư Jút
+/dak-nong/huyen-dak-rlap 22 Huyện Đắk R'Lấp
+/dak-nong/huyen-dak-song 199 Huyện Đắk Song
+/dak-nong/huyen-dak-mil 298 Huyện Đắk Mil
+/dak-nong/huyen-dak-glong 368 Huyện Đắk Glong
+/dak-nong/huyen-dak-nong-het-h-luc 692 Huyện Đắk Nông (hêt H.lực)
+/dak-nong/tinh-dak-nong 749 Tỉnh Đắk Nông
+/dak-nong/huyen-tuy-duc 265 Huyện Tuy Đức
+/dak-nong/thi-xa-gia-nghia 23 Thị Xã Gia Nghĩa
+/dak-nong/huyen-krong-no 299 Huyện Krông Nô
+/da-nang/quan-cam-le 259 Quận Cẩm Lệ
+/da-nang/quan-hai-chau 34 Quận Hải Châu
+/da-nang/quan-lien-chieu 32 Quận Liên Chiểu
+/da-nang/thanh-pho-da-nang 577 Thành Phố Đà Nẵng
+/da-nang/quan-ngu-hanh-son 35 Quận Ngũ Hành Sơn
+/da-nang/huyen-hoa-vang 287 Huyện Hoà Vang
+/da-nang/quan-thanh-khe 36 Quận Thanh Khê
+/da-nang/quan-son-tra 33 Quận Sơn Trà
+/hai-duong/huyen-binh-giang 487 Huyện Bình Giang
+/hai-duong/huyen-cam-giang 288 Huyện Cẩm Giàng
+/hai-duong/thi-xa-chi-linh 456 Thị Xã Chí Linh
+/hai-duong/thanh-pho-hai-duong 37 Thành Phố Hải Dương
+/hai-duong/tinh-hai-duong 574 Tỉnh Hải Dương
+/hai-duong/huyen-gia-loc 515 Huyện Gia Lộc
+/hai-duong/huyen-ninh-giang 496 Huyện Ninh Giang
+/hai-duong/huyen-thanh-ha 276 Huyện Thanh Hà
+/hai-duong/huyen-kim-thanh 38 Huyện Kim Thành
+/hai-duong/huyen-thanh-mien 167 Huyện Thanh Miện
+/hai-duong/huyen-nam-sach 223 Huyện Nam Sách
+/hai-duong/huyen-kinh-mon 232 Huyện Kinh Môn
+/hai-duong/huyen-tu-ky 639 Huyện Tứ Kỳ
+/long-an/thanh-pho-tan-an 250 Thành Phố Tân An
+/long-an/tinh-long-an 698 Tỉnh Long An
+/long-an/huyen-ben-luc 40 Huyện Bến Lức
+/long-an/huyen-can-giuoc 171 Huyện Cần Giuộc
+/long-an/huyen-can-duoc 425 Huyện Cần Đước
+/long-an/huyen-chau-thanh 575 Huyện Châu Thành
+/long-an/huyen-duc-hoa 41 Huyện Đức Hoà
+/long-an/huyen-duc-hue 498 Huyện Đức Huệ
+/long-an/huyen-thanh-hoa 377 Huyện Thạnh Hoá
+/long-an/huyen-moc-hoa 576 Huyện Mộc Hoá
+/long-an/huyen-tan-hung 99 Huyện Tân Hưng
+/long-an/huyen-vinh-hung 490 Huyện Vĩnh Hưng
+/long-an/huyen-tan-thanh 83 Huyện Tân Thạnh
+/long-an/huyen-thu-thua 378 Huyện Thủ Thừa
+/long-an/huyen-tan-tru 689 Huyện Tân Trụ
+/long-an/thi-xa-kien-tuong 84 Thị Xã Kiến Tường
+/ben-tre/khu-pho-3 831 Khu Phố 3
+/ben-tre/huyen-ba-tri 125 Huyện Ba Tri
+/ben-tre/huyen-mo-cay-bac 264 Huyện Mỏ Cày Bắc
+/ben-tre/thanh-pho-ben-tre 42 Thành Phố Bến Tre
+/ben-tre/tinh-ben-tre 578 Tỉnh Bến Tre
+/ben-tre/huyen-binh-dai 262 Huyện Bình Đại
+/ben-tre/huyen-mo-cay-nam 322 Huyện Mỏ Cày Nam
+/ben-tre/huyen-chau-thanh 118 Huyện Châu Thành
+/ben-tre/huyen-cho-lach 202 Huyện Chợ Lách
+/ben-tre/huyen-giong-trom 263 Huyện Giồng Trôm
+/ben-tre/huyen-thanh-phu 120 Huyện Thạnh Phú
+/dong-thap/huyen-thanh-binh 629 Huyện Thanh Bình
+/dong-thap/thanh-pho-cao-lanh 172 Thành Phố Cao Lãnh
+/dong-thap/huyen-cao-lanh 624 Huyện Cao Lãnh
+/dong-thap/huyen-chau-thanh 217 Huyện Châu Thành
+/dong-thap/thanh-pho-sa-dec 121 Thành Phố Sa Đéc
+/dong-thap/tinh-dong-thap 672 Tỉnh Đồng Tháp
+/dong-thap/huyen-hong-ngu 44 Huyện  Hồng Ngự
+/dong-thap/huyen-tan-hong 45 Huyện Tân Hồng
+/dong-thap/thi-xa-hong-ngu 248 Thị Xã Hồng Ngự
+/dong-thap/huyen-tam-nong 43 Huyện Tam Nông
+/dong-thap/huyen-lap-vo 164 Huyện Lấp Vò
+/dong-thap/huyen-thap-muoi 206 Huyện Tháp Mười
+/dong-thap/huyen-lai-vung 537 Huyện Lai Vung
+/vinh-long/thi-xa-binh-minh 189 Thị Xã Bình Minh
+/vinh-long/huyen-tam-binh 257 Huyện Tam Bình
+/vinh-long/huyen-binh-tan 270 Huyện Bình Tân
+/vinh-long/huyen-long-ho 46 Huyện Long Hồ
+/vinh-long/huyen-mang-thit 150 Huyện Mang Thít
+/vinh-long/huyen-vung-liem 351 Huyện Vũng Liêm
+/vinh-long/huyen-tra-on 405 Huyện Trà Ôn
+/vinh-long/thanh-pho-vinh-long 280 Thành Phố  Vĩnh Long
+/vinh-long/tinh-vinh-long 767 Tỉnh Vĩnh Long
+/kien-giang/huyen-an-minh 569 Huyện An Minh
+/kien-giang/huyen-an-bien 634 Huyện An Biên
+/kien-giang/huyen-chau-thanh 254 Huyện Châu Thành
+/kien-giang/huyen-hon-dat 258 Huyện Hòn Đất
+/kien-giang/thanh-pho-rach-gia 101 Thành Phố Rạch Giá
+/kien-giang/huyen-giang-thanh 527 Huyện Giang Thành
+/kien-giang/tinh-kien-giang 563 Tỉnh Kiên Giang
+/kien-giang/huyen-giong-rieng 178 Huyện Giồng Riềng
+/kien-giang/huyen-go-quao 334 Huyện Gò Quao
+/kien-giang/thi-xa-ha-tien 438 Thị Xã Hà Tiên
+/kien-giang/huyen-kien-hai 547 Huyện Kiên Hải
+/kien-giang/huyen-tan-hiep 261 Huyện Tân Hiệp
+/kien-giang/huyen-phu-quoc 47 Huyện Phú Quốc
+/kien-giang/huyen-kien-luong 48 Huyện Kiên Lương
+/kien-giang/huyen-vinh-thuan 455 Huyện Vĩnh Thuận
+/kien-giang/huyen-u-minh-thuong 650 Huyện U Minh Thượng
+/tra-vinh/huyen-tieu-can 236 Huyện Tiểu Cần
+/tra-vinh/huyen-cang-long 49 Huyện Càng Long
+/tra-vinh/huyen-cau-ngang 179 Huyện Cầu Ngang
+/tra-vinh/huyen-cau-ke 471 Huyện Cầu Kè
+/tra-vinh/huyen-chau-thanh 554 Huyện Châu Thành
+/tra-vinh/huyen-tra-cu 745 Huyện Trà Cú
+/tra-vinh/huyen-duyen-hai 417 Huyện Duyên Hải
+/tra-vinh/thi-xa-duyen-hai 549 Thị Xã Duyên Hải
+/tra-vinh/thanh-pho-tra-vinh 50 Thành Phố Trà Vinh
+/tra-vinh/tinh-tra-vinh 713 Tỉnh Trà Vinh
+/soc-trang/huyen-chau-thanh 102 Huyện Châu Thành
+/soc-trang/thi-xa-vinh-chau 598 Thị Xã Vĩnh Châu
+/soc-trang/huyen-cu-lao-dung 52 Huyện Cù Lao Dung
+/soc-trang/huyen-tran-de 54 Huyện Trần Đề
+/soc-trang/huyen-long-phu 53 Huyện Long Phú
+/soc-trang/huyen-my-tu 55 Huyện Mỹ Tú
+/soc-trang/huyen-thanh-tri 103 Huyện Thạnh Trị
+/soc-trang/huyen-my-xuyen 196 Huyện Mỹ Xuyên
+/soc-trang/huyen-ke-sach 402 Huyện Kế Sách
+/soc-trang/thi-xa-nga-nam 618 Thị Xã Ngã Năm
+/soc-trang/thanh-pho-soc-trang 51 Thành Phố Sóc Trăng
+/soc-trang/tinh-soc-trang 718 Tỉnh Sóc Trăng
+/bac-ninh/thanh-pho-bac-ninh 56 Thành Phố Bắc Ninh
+/bac-ninh/tinh-bac-ninh 766 Tỉnh Bắc Ninh
+/bac-ninh/huyen-gia-binh 386 Huyện Gia Bình
+/bac-ninh/huyen-tien-du 58 Huyện Tiên Du
+/bac-ninh/huyen-que-vo 57 Huyện Quế Võ
+/bac-ninh/huyen-luong-tai 307 Huyện Lương Tài
+/bac-ninh/huyen-yen-phong 313 Huyện Yên Phong
+/bac-ninh/huyen-thuan-thanh 393 Huyện Thuận Thành
+/bac-ninh/thi-xa-tu-son 151 Thị Xã Từ Sơn
+/thanh-hoa/huyen-ba-thuoc 728 Huyện Bá Thước
+/thanh-hoa/thi-xa-bim-son 61 Thị Xã Bỉm Sơn
+/thanh-hoa/huyen-cam-thuy 231 Huyện Cẩm Thuỷ
+/thanh-hoa/huyen-lang-chanh 648 Huyện Lang Chánh
+/thanh-hoa/huyen-nong-cong 540 Huyện Nông Cống
+/thanh-hoa/huyen-yen-dinh 635 Huyện Yên Định
+/thanh-hoa/huyen-dong-son 560 Huyện Đông Sơn
+/thanh-hoa/huyen-tinh-gia 62 Huyện Tĩnh Gia
+/thanh-hoa/huyen-ha-trung 59 Huyện Hà Trung
+/thanh-hoa/huyen-hau-loc 545 Huyện Hậu Lộc
+/thanh-hoa/thanh-pho-thanh-hoa 63 Thành Phố Thanh Hoá
+/thanh-hoa/huyen-hoang-hoa 290 Huyện Hoằng Hoá
+/thanh-hoa/huyen-thieu-hoa 335 Huyện Thiệu Hoá
+/thanh-hoa/tinh-thanh-hoa 667 Tỉnh Thanh Hoá
+/thanh-hoa/huyen-quan-hoa 670 Huyện Quan Hoá
+/thanh-hoa/huyen-quang-xuong 60 Huyện Quảng Xương
+/thanh-hoa/huyen-nga-son 221 Huyện Nga Sơn
+/thanh-hoa/huyen-trieu-son 339 Huyện Triệu Sơn
+/thanh-hoa/huyen-thach-thanh 376 Huyện Thạch Thành
+/thanh-hoa/huyen-nhu-xuan 421 Huyện Như Xuân
+/thanh-hoa/huyen-tho-xuan 422 Huyện Thọ Xuân
+/thanh-hoa/huyen-quan-son 538 Huyện Quan Sơn
+/thanh-hoa/huyen-thuong-xuan 539 Huyện Thường Xuân
+/thanh-hoa/huyen-muong-lat 541 Huyện Mường Lát
+/thanh-hoa/huyen-vinh-loc 546 Huyện Vĩnh Lộc
+/thanh-hoa/huyen-ngoc-lac 631 Huyện Ngọc Lặc
+/thanh-hoa/huyen-nhu-thanh 664 Huyện Như Thanh
+/thanh-hoa/thanh-pho-sam-son 832 Thành Phố Sầm Sơn
+/thanh-hoa/thi-xa-sam-son 333 Thị Xã Sầm Sơn
+/vung-tau/ba-ria 64 Bà Rịa
+/dong-nai/thanh-pho-bien-hoa 105 Thành Phố Biên Hoà
+/dong-nai/huyen-trang-bom 253 Huyện Trảng Bom
+/dong-nai/huyen-cam-my 461 Huyện Cẩm Mỹ
+/dong-nai/huyen-vinh-cuu 239 Huyện Vĩnh Cửu
+/dong-nai/huyen-dinh-quan 367 Huyện Định Quán
+/dong-nai/tinh-dong-nai 679 Tỉnh Đồng Nai
+/dong-nai/huyen-long-thanh 65 Huyện Long Thành
+/dong-nai/huyen-nhon-trach 238 Huyện Nhơn Trạch
+/dong-nai/huyen-tan-phu 332 Huyện Tân Phú
+/dong-nai/huyen-xuan-loc 460 Huyện Xuân Lộc
+/dong-nai/huyen-thong-nhat 477 Huyện Thống Nhất
+/dong-nai/thi-xa-long-khanh 106 Thị Xã Long Khánh
+/binh-duong/tx-thuan-an 67 TX Thuận An
+/binh-duong/tx-di-an 68 TX Dĩ An
+/binh-duong/thi-xa-thuan-an 792 Thị Xã Thuận An
+/binh-duong/thi-xa-di-an 814 Thị Xã Dĩ An
+/binh-duong/huyen-bac-tan-uyen 584 Huyện Bắc Tân Uyên
+/binh-duong/huyen-bau-bang 190 Huyện Bàu Bàng
+/binh-duong/thi-xa-ben-cat 66 Thị Xã Bến Cát
+/binh-duong/tinh-binh-duong 690 Tỉnh Bình Dương
+/binh-duong/thanh-pho-thu-dau-mot 69 Thành Phố Thủ Dầu Một
+/binh-duong/huyen-dau-tieng 365 Huyện Dầu Tiếng
+/binh-duong/huyen-phu-giao 268 Huyện Phú Giáo
+/binh-duong/thi-xa-tan-uyen 88 Thị Xã  Tân Uyên
+/thai-nguyen/huyen-phu-binh 70 Huyện Phú Bình
+/thai-nguyen/thanh-pho-song-cong 503 Thành Phố Sông Công
+/thai-nguyen/huyen-dai-tu 388 Huyện Đại Từ
+/thai-nguyen/huyen-dinh-hoa 581 Huyện Định Hoá
+/thai-nguyen/huyen-dong-hy 585 Huyện Đồng Hỷ
+/thai-nguyen/huyen-phu-luong 466 Huyện Phú Lương
+/thai-nguyen/huyen-vo-nhai 633 Huyện Võ Nhai
+/thai-nguyen/thanh-pho-thai-nguyen 94 Thành Phố Thái Nguyên
+/thai-nguyen/tinh-thai-nguyen 662 Tỉnh Thái Nguyên
+/thai-nguyen/thi-xa-pho-yen 323 Thị Xã Phổ Yên
+/thai-binh/thanh-pho-thai-binh 319 Thành Phố Thái Bình
+/thai-binh/tinh-thai-binh 771 Tỉnh Thái Bình
+/thai-binh/huyen-dong-hung 82 Huyện Đông Hưng
+/thai-binh/huyen-hung-ha 548 Huyện Hưng Hà
+/thai-binh/huyen-tien-hai 123 Huyện Tiền Hải
+/thai-binh/huyen-kien-xuong 116 Huyện Kiến Xương
+/thai-binh/huyen-thai-thuy 384 Huyện Thái Thụy
+/thai-binh/huyen-quynh-phu 445 Huyện Quỳnh Phụ
+/thai-binh/huyen-vu-thu 507 Huyện Vũ Thư
+/can-tho/huyen-chau-thanh-a-het-h-luc 772 Huyện Châu Thành A (hêt H.lực)
+/can-tho/quan-binh-thuy 126 Quận Bình Thuỷ
+/can-tho/quan-cai-rang 85 Quận Cái Răng
+/can-tho/thanh-pho-can-tho-het-h-luc 562 Thành Phố Cần Thơ (hêt H.lực)
+/can-tho/thanh-pho-can-tho 712 Thành Phố Cần Thơ
+/can-tho/huyen-chau-thanh-het-h-luc 440 Huyện Châu Thành (hêt H.lực)
+/can-tho/huyen-co-do 255 Huyện Cờ Đỏ
+/can-tho/huyen-phong-dien 350 Huyện Phong Điền
+/can-tho/huyen-long-my-het-h-luc 681 Huyện Long Mỹ (hêt H.lực)
+/can-tho/huyen-phung-hiep-het-h-luc 769 Huyện Phụng Hiệp (hêt H.lực)
+/can-tho/huyen-thoi-lai 213 Huyện Thới Lai
+/can-tho/huyen-vinh-thanh 230 Huyện Vĩnh Thạnh
+/can-tho/quan-ninh-kieu 119 Quận Ninh Kiều
+/can-tho/quan-o-mon 252 Quận Ô Môn
+/can-tho/quan-thot-not 473 Quận Thốt Nốt
+/nghe-an/tinh-nghe-an 669 Tỉnh Nghệ An
+/nghe-an/huyen-anh-son 587 Huyện Anh Sơn
+/nghe-an/huyen-dien-chau 390 Huyện Diễn Châu
+/nghe-an/huyen-quy-chau 588 Huyện Quỳ Châu
+/nghe-an/huyen-thanh-chuong 391 Huyện Thanh Chương
+/nghe-an/huyen-con-cuong 626 Huyện Con Cuông
+/nghe-an/thi-xa-cua-lo 216 Thị Xã Cửa Lò
+/nghe-an/huyen-nghia-dan 222 Huyện Nghĩa Đàn
+/nghe-an/huyen-nam-dan 494 Huyện Nam Đàn
+/nghe-an/huyen-do-luong 327 Huyện Đô Lương
+/nghe-an/huyen-tuong-duong 655 Huyện Tương Dương
+/nghe-an/thi-xa-thai-hoa 328 Thị Xã Thái Hoà
+/nghe-an/thi-xa-hoang-mai 392 Thị Xã Hoàng Mai
+/nghe-an/huyen-quy-hop 297 Huyện Quỳ Hợp
+/nghe-an/huyen-hung-nguyen 404 Huyện Hưng Nguyên
+/nghe-an/huyen-quynh-luu 130 Huyện Quỳnh Lưu
+/nghe-an/huyen-tan-ky 183 Huyện Tân Kỳ
+/nghe-an/huyen-ky-son 410 Huyện Kỳ Sơn
+/nghe-an/huyen-que-phong 415 Huyện Quế Phong
+/nghe-an/huyen-yen-thanh 483 Huyện Yên Thành
+/nghe-an/huyen-nghi-loc 524 Huyện Nghi Lộc
+/nghe-an/thanh-pho-vinh 86 Thành Phố Vinh
+/hue/thua-thien 87 Thừa Thiên
+/binh-phuoc/thi-xa-binh-long 602 Thị Xã  Bình Long
+/binh-phuoc/tinh-binh-phuoc 727 Tỉnh Bình Phước
+/binh-phuoc/huyen-bu-dop 169 Huyện Bù Đốp
+/binh-phuoc/huyen-bu-dang 191 Huyện Bù Đăng
+/binh-phuoc/huyen-bu-gia-map 542 Huyện Bù Gia Mập
+/binh-phuoc/huyen-chon-thanh 89 Huyện Chơn Thành
+/binh-phuoc/thi-xa-dong-xoai 192 Thị Xã Đồng Xoài
+/binh-phuoc/huyen-dong-phu 241 Huyện Đồng Phú
+/binh-phuoc/huyen-hon-quan 531 Huyện Hớn Quản
+/binh-phuoc/huyen-loc-ninh 314 Huyện Lộc Ninh
+/binh-phuoc/huyen-phu-rieng 442 Huyện Phú Riềng
+/binh-phuoc/thi-xa-phuoc-long 286 Thị Xã  Phước Long
+/quang-nam/thanh-pho-hoi-an 90 Thành Phố Hội An
+/quang-nam/huyen-bac-tra-my 271 Huyện Bắc Trà My
+/quang-nam/thi-xa-dien-ban 296 Thị Xã Điện Bàn
+/quang-nam/huyen-thang-binh 419 Huyện Thăng Bình
+/quang-nam/huyen-dai-loc 292 Huyện Đại Lộc
+/quang-nam/huyen-dong-giang 418 Huyện Đông Giang
+/quang-nam/huyen-hiep-duc 591 Huyện Hiệp Đức
+/quang-nam/huyen-duy-xuyen 431 Huyện Duy Xuyên
+/quang-nam/huyen-tay-giang 219 Huyện Tây Giang
+/quang-nam/huyen-nam-giang 632 Huyện Nam Giang
+/quang-nam/huyen-nam-tra-my 269 Huyện Nam Trà My
+/quang-nam/huyen-nong-son 303 Huyện Nông Sơn
+/quang-nam/huyen-nui-thanh 305 Huyện Núi Thành
+/quang-nam/huyen-phuoc-son 399 Huyện Phước Sơn
+/quang-nam/huyen-phu-ninh 423 Huyện Phú Ninh
+/quang-nam/huyen-que-son 432 Huyện Quế Sơn
+/quang-nam/huyen-tien-phuoc 651 Huyện Tiên Phước
+/quang-nam/thanh-pho-tam-ky 91 Thành Phố Tam Kỳ
+/quang-nam/tinh-quang-nam 725 Tỉnh Quảng Nam
+/quang-ngai/huyen-ba-to 379 Huyện Ba Tơ
+/quang-ngai/huyen-binh-son 146 Huyện Bình Sơn
+/quang-ngai/huyen-tra-bong 746 Huyện Trà Bồng
+/quang-ngai/huyen-duc-pho 441 Huyện Đức Phổ
+/quang-ngai/huyen-mo-duc 710 Huyện Mộ Đức
+/quang-ngai/huyen-son-ha 453 Huyện Sơn Hà
+/quang-ngai/huyen-nghia-hanh 338 Huyện Nghĩa Hành
+/quang-ngai/huyen-tu-nghia 364 Huyện Tư Nghĩa
+/quang-ngai/huyen-ly-son 369 Huyện Lý Sơn
+/quang-ngai/huyen-minh-long 436 Huyện Minh Long
+/quang-ngai/huyen-tay-tra 475 Huyện Tây Trà
+/quang-ngai/huyen-son-tinh 603 Huyện Sơn Tịnh
+/quang-ngai/huyen-son-tay 615 Huyện Sơn Tây
+/quang-ngai/thanh-pho-quang-ngai 92 Thành Phố Quảng Ngãi
+/quang-ngai/tinh-quang-ngai 723 Tỉnh Quảng Ngãi
+/ninh-thuan/huyen-bac-ai 709 Huyện Bác Ái
+/ninh-thuan/huyen-thuan-bac 111 Huyện Thuận Bắc
+/ninh-thuan/thap-cham 93 Tháp Chàm
+/ninh-thuan/tp-phan-rang-thap-cham 791 Tp. Phan Rang-tháp Chàm
+/ninh-thuan/huyen-ninh-hai 525 Huyện Ninh Hải
+/ninh-thuan/huyen-thuan-nam 112 Huyện Thuận Nam
+/ninh-thuan/huyen-ninh-son 113 Huyện Ninh Sơn
+/ninh-thuan/huyen-ninh-phuoc 556 Huyện Ninh Phước
+/ninh-thuan/tinh-ninh-thuan 678 Tỉnh Ninh Thuận
+/lao-cai/huyen-bac-ha 114 Huyện Bắc Hà
+/lao-cai/huyen-van-ban 205 Huyện Văn Bàn
+/lao-cai/huyen-bao-thang 479 Huyện Bảo Thắng
+/lao-cai/huyen-bao-yen 644 Huyện Bảo Yên
+/lao-cai/huyen-bat-xat 96 Huyện Bát Xát
+/lao-cai/thanh-pho-lao-cai 95 Thành Phố Lào Cai
+/lao-cai/tinh-lao-cai 716 Tỉnh Lào Cai
+/lao-cai/huyen-si-ma-cai 756 Huyện Si Ma Cai
+/lao-cai/huyen-than-uyen-het-h-luc 770 Huyện Than Uyên (hêt H.lực)
+/lao-cai/huyen-sa-pa 154 Huyện Sa Pa
+/lao-cai/huyen-muong-khuong 683 Huyện Mường Khương
+/hai-phong/quan-hai-an 204 Quận Hải An
+/hai-phong/huyen-an-duong 211 Huyện An Dương
+/hai-phong/quan-kien-an 212 Quận Kiến An
+/hai-phong/huyen-an-lao 381 Huyện An Lão
+/hai-phong/huyen-bach-long-vi 401 Huyện Bạch Long Vĩ
+/hai-phong/quan-hong-bang 380 Quận Hồng Bàng
+/hai-phong/huyen-vinh-bao 316 Huyện Vĩnh Bảo
+/hai-phong/huyen-cat-hai 520 Huyện Cát Hải
+/hai-phong/quan-le-chan 318 Quận Lê Chân
+/hai-phong/quan-do-son 373 Quận Đồ Sơn
+/hai-phong/quan-duong-kinh 317 Quận Dương Kinh
+/hai-phong/thanh-pho-hai-phong 732 Thành Phố Hải Phòng
+/hai-phong/huyen-thuy-nguyen 203 Huyện Thuỷ Nguyên
+/hai-phong/huyen-tien-lang 341 Huyện Tiên Lãng
+/hai-phong/huyen-kien-thuy 407 Huyện Kiến Thuỵ
+/hai-phong/quan-ngo-quyen 98 Quận Ngô Quyền
+/an-giang/huyen-an-phu 274 Huyện An Phú
+/an-giang/tinh-an-giang 719 Tỉnh An Giang
+/an-giang/huyen-tinh-bien 387 Huyện Tịnh Biên
+/an-giang/thanh-pho-chau-doc 177 Thành Phố Châu Đốc
+/an-giang/huyen-chau-phu 214 Huyện Châu Phú
+/an-giang/thi-xa-tan-chau 215 Thị Xã Tân Châu
+/an-giang/huyen-chau-thanh 394 Huyện Châu Thành
+/an-giang/huyen-cho-moi 489 Huyện Chợ Mới
+/an-giang/huyen-thoai-son 207 Huyện Thoại Sơn
+/an-giang/huyen-phu-tan 502 Huyện Phú Tân
+/an-giang/huyen-tri-ton 526 Huyện Tri Tôn
+/an-giang/thanh-pho-long-xuyen 100 Thành Phố Long Xuyên
+/phu-tho/huyen-thanh-ba 616 Huyện Thanh Ba
+/phu-tho/huyen-cam-khe 459 Huyện Cẩm Khê
+/phu-tho/huyen-doan-hung 654 Huyện Đoan Hùng
+/phu-tho/huyen-ha-hoa 596 Huyện Hạ Hoà
+/phu-tho/huyen-tan-son 209 Huyện Tân Sơn
+/phu-tho/huyen-lam-thao 273 Huyện Lâm Thao
+/phu-tho/huyen-tam-nong 282 Huyện Tam Nông
+/phu-tho/huyen-thanh-son 416 Huyện Thanh Sơn
+/phu-tho/huyen-phu-ninh 485 Huyện Phù Ninh
+/phu-tho/huyen-yen-lap 614 Huyện Yên Lập
+/phu-tho/huyen-thanh-thuy 630 Huyện Thanh Thuỷ
+/phu-tho/thanh-pho-viet-tri 104 Thành Phố Việt Trì
+/phu-tho/thi-xa-phu-tho 476 Thị Xã Phú Thọ
+/phu-tho/tinh-phu-tho 715 Tỉnh Phú Thọ
+/tay-ninh/huyen-trang-bang 176 Huyện Trảng Bàng
+/tay-ninh/huyen-ben-cau 193 Huyện Bến Cầu
+/tay-ninh/huyen-tan-bien 194 Huyện Tân Biên
+/tay-ninh/huyen-duong-minh-chau 131 Huyện Dương Minh Châu
+/tay-ninh/huyen-chau-thanh 557 Huyện Châu Thành
+/tay-ninh/huyen-tan-chau 682 Huyện Tân Châu
+/tay-ninh/huyen-go-dau 201 Huyện Gò Dầu
+/tay-ninh/huyen-hoa-thanh 107 Huyện Hoà Thành
+/tay-ninh/thanh-pho-tay-ninh 108 Thành Phố Tây Ninh
+/tay-ninh/tinh-tay-ninh 726 Tỉnh Tây Ninh
+/khanh-hoa/huyen-cam-lam 420 Huyện Cam Lâm
+/khanh-hoa/thanh-pho-cam-ranh 435 Thành Phố Cam Ranh
+/khanh-hoa/huyen-dien-khanh 308 Huyện Diên Khánh
+/khanh-hoa/thi-xa-ninh-hoa 501 Thị Xã Ninh Hoà
+/khanh-hoa/tinh-khanh-hoa 764 Tỉnh Khánh Hoà
+/khanh-hoa/huyen-van-ninh 395 Huyện Vạn Ninh
+/khanh-hoa/huyen-khanh-vinh 643 Huyện Khánh Vĩnh
+/khanh-hoa/huyen-khanh-son 711 Huyện Khánh Sơn
+/khanh-hoa/huyen-truong-sa 773 Huyện Trường Sa
+/khanh-hoa/thanh-pho-nha-trang 109 Thành Phố Nha Trang
+/phu-yen/huyen-tuy-an 243 Huyện Tuy An
+/phu-yen/thi-xa-song-cau 619 Thị Xã Sông Cầu
+/phu-yen/huyen-dong-hoa 110 Huyện Đông Hoà
+/phu-yen/huyen-dong-xuan 610 Huyện Đồng Xuân
+/phu-yen/huyen-song-hinh 685 Huyện Sông Hinh
+/phu-yen/huyen-phu-hoa 247 Huyện Phú Hoà
+/phu-yen/thanh-pho-tuy-hoa 375 Thành Phố Tuy Hoà
+/phu-yen/huyen-tay-hoa 458 Huyện  Tây  Hoà
+/phu-yen/huyen-son-hoa 608 Huyện Sơn Hoà
+/phu-yen/tp-tuy-hoa 777 Tp Tuy Hoà
+/phu-yen/tinh-phu-yen 699 Tỉnh Phú Yên
+/hoa-binh/huyen-da-bac 363 Huyện Đà Bắc
+/hoa-binh/thanh-pho-hoa-binh 137 Thành Phố Hoà Bình
+/hoa-binh/tinh-hoa-binh 666 Tỉnh Hoà Bình
+/hoa-binh/huyen-kim-boi 155 Huyện Kim Bôi
+/hoa-binh/huyen-cao-phong 493 Huyện Cao Phong
+/hoa-binh/huyen-mai-chau 495 Huyện Mai Châu
+/hoa-binh/huyen-luong-son 117 Huyện Lương Sơn
+/hoa-binh/huyen-lac-thuy 156 Huyện Lạc Thuỷ
+/hoa-binh/huyen-lac-son 447 Huyện Lạc Sơn
+/hoa-binh/huyen-tan-lac 512 Huyện Tân Lạc
+/hoa-binh/huyen-yen-thuy 606 Huyện Yên Thuỷ
+/hoa-binh/huyen-ky-son 701 Huyện Kỳ Sơn
+/tuyen-quang/huyen-lam-binh 704 Huyện Lâm Bình
+/tuyen-quang/huyen-chiem-hoa 652 Huyện Chiêm Hoá
+/tuyen-quang/huyen-son-duong 446 Huyện Sơn Dương
+/tuyen-quang/huyen-ham-yen 677 Huyện Hàm Yên
+/tuyen-quang/huyen-na-hang 694 Huyện Na Hang
+/tuyen-quang/huyen-yen-son 506 Huyện Yên Sơn
+/tuyen-quang/thanh-pho-tuyen-quang 128 Thành Phố Tuyên Quang
+/tuyen-quang/tinh-tuyen-quang 733 Tỉnh Tuyên Quang
+/lai-chau/thanh-pho-lai-chau 129 Thành Phố Lai Châu
+/lai-chau/tinh-lai-chau 742 Tỉnh Lai Châu
+/lai-chau/huyen-tam-duong 210 Huyện Tam Đường
+/lai-chau/huyen-sin-ho 428 Huyện Sìn Hồ
+/lai-chau/huyen-muong-te 275 Huyện Mường Tè
+/lai-chau/huyen-than-uyen 312 Huyện Than Uyên
+/lai-chau/huyen-nam-nhun 414 Huyện Nậm Nhùn
+/lai-chau/huyen-tan-uyen 593 Huyện Tân Uyên
+/lai-chau/huyen-phong-tho 607 Huyện Phong Thổ
+/hau-giang/huyen-chau-thanh-a 136 Huyện Châu Thành A
+/hau-giang/thi-xa-nga-bay 564 Thị  Xã Ngã Bảy
+/hau-giang/huyen-chau-thanh 358 Huyện Châu Thành
+/hau-giang/tinh-hau-giang 730 Tỉnh Hậu Giang
+/hau-giang/huyen-phung-hiep 611 Huyện Phụng Hiệp
+/hau-giang/huyen-vi-thuy 173 Huyện Vị Thủy
+/hau-giang/huyen-long-my 235 Huyện Long Mỹ
+/hau-giang/thi-xa-long-my 754 Thị Xã Long Mỹ
+/hau-giang/thanh-pho-vi-thanh 800 Thành Phố Vị Thanh
+/hau-giang/tp-vi-thanh 170 Tp Vị Thanh
+/lam-dong/thanh-pho-bao-loc 309 Thành Phố Bảo Lộc
+/lam-dong/huyen-bao-lam 620 Huyện Bảo Lâm
+/lam-dong/huyen-cat-tien 646 Huyện Cát Tiên
+/lam-dong/thanh-pho-da-lat 138 Thành Phố Đà Lạt
+/lam-dong/huyen-da-huoai 433 Huyện Đạ Huoai
+/lam-dong/huyen-da-teh 645 Huyện Đạ Tẻh
+/lam-dong/huyen-dam-rong 628 Huyện Đam Rông
+/lam-dong/huyen-di-linh 396 Huyện Di Linh
+/lam-dong/huyen-don-duong 413 Huyện Đơn Dương
+/lam-dong/tinh-lam-dong 747 Tỉnh Lâm Đồng
+/lam-dong/huyen-duc-trong 227 Huyện Đức Trọng
+/lam-dong/huyen-lac-duong 609 Huyện Lạc Dương
+/lam-dong/huyen-lam-ha 139 Huyện Lâm Hà
+/lang-son/huyen-bac-son 469 Huyện Bắc Sơn
+/lang-son/huyen-loc-binh 474 Huyện Lộc Bình
+/lang-son/huyen-binh-gia 613 Huyện Bình Gia
+/lang-son/huyen-cao-loc 491 Huyện Cao Lộc
+/lang-son/huyen-chi-lang 482 Huyện Chi Lăng
+/lang-son/huyen-trang-dinh 625 Huyện Tràng Định
+/lang-son/huyen-dinh-lap 705 Huyện Đình Lập
+/lang-son/huyen-huu-lung 528 Huyện Hữu Lũng
+/lang-son/huyen-van-quan 457 Huyện Văn Quan
+/lang-son/huyen-van-lang 505 Huyện Văn Lãng
+/lang-son/thanh-pho-lang-son 142 Thành Phố Lạng Sơn
+/lang-son/tinh-lang-son 671 Tỉnh Lạng Sơn
+/ha-nam/huyen-kim-bang 543 Huyện Kim Bảng
+/ha-nam/huyen-binh-luc 383 Huyện Bình Lục
+/ha-nam/huyen-duy-tien 149 Huyện Duy Tiên
+/ha-nam/tinh-ha-nam 720 Tỉnh Hà Nam
+/ha-nam/huyen-thanh-liem 382 Huyện Thanh Liêm
+/ha-nam/huyen-ly-nhan 449 Huyện Lý Nhân
+/ha-nam/thanh-pho-phu-ly 143 Thành Phố Phủ Lý
+/bac-can/huyen-ba-be 536 Huyện Ba Bể
+/bac-can/thanh-pho-bac-can 145 Thành Phố Bắc Cạn
+/bac-can/tinh-bac-can 737 Tỉnh Bắc Cạn
+/bac-can/huyen-bach-thong 443 Huyện Bạch Thông
+/bac-can/huyen-cho-moi 344 Huyện Chợ Mới
+/bac-can/huyen-cho-don 708 Huyện Chợ Đồn
+/bac-can/huyen-na-ri 345 Huyện Na Rì
+/bac-can/huyen-pac-nam 695 Huyện Pác Nặm
+/bac-can/huyen-ngan-son 736 Huyện Ngân Sơn
+/binh-dinh/huyen-hoai-an 237 Huyện Hoài Ân
+/binh-dinh/thi-xa-an-nhon 346 Thị Xã An Nhơn
+/binh-dinh/huyen-an-lao 623 Huyện An Lão
+/binh-dinh/tinh-binh-dinh 663 Tỉnh Bình Định
+/binh-dinh/huyen-van-canh 622 Huyện Vân Canh
+/binh-dinh/huyen-phu-cat 152 Huyện Phù Cát
+/binh-dinh/huyen-hoai-nhon 595 Huyện Hoài Nhơn
+/binh-dinh/huyen-phu-my 163 Huyện Phù Mỹ
+/binh-dinh/huyen-tuy-phuoc 175 Huyện Tuy Phước
+/binh-dinh/huyen-tay-son 448 Huyện Tây Sơn
+/binh-dinh/huyen-vinh-thanh 744 Huyện Vĩnh Thạnh
+/binh-dinh/thanh-pho-quy-nhon 147 Thành Phố Quy Nhơn
+/cao-bang/huyen-hoa-an 656 Huyện Hoà An
+/cao-bang/huyen-thach-an 700 Huyện Thạch An
+/cao-bang/thanh-pho-cao-bang 153 Thành Phố Cao Bằng
+/cao-bang/tinh-cao-bang 748 Tỉnh Cao Bằng
+/cao-bang/huyen-bao-lac 668 Huyện Bảo Lạc
+/cao-bang/huyen-bao-lam 757 Huyện Bảo Lâm
+/cao-bang/huyen-nguyen-binh 612 Huyện Nguyên Bình
+/cao-bang/huyen-ha-quang 752 Huyện Hà Quảng
+/cao-bang/huyen-ha-lang 762 Huyện Hạ Lang
+/cao-bang/huyen-phuc-hoa 751 Huyện Phục Hoà
+/cao-bang/huyen-tra-linh 640 Huyện Trà Lĩnh
+/cao-bang/huyen-quang-uyen 649 Huyện Quảng Uyên
+/cao-bang/huyen-thong-nong 706 Huyện Thông Nông
+/cao-bang/huyen-trung-khanh 707 Huyện Trùng Khánh
+/son-la/huyen-bac-yen 464 Huyện Bắc Yên
+/son-la/huyen-moc-chau 226 Huyện Mộc Châu
+/son-la/huyen-thuan-chau 295 Huyện Thuận Châu
+/son-la/huyen-yen-chau 740 Huyện Yên Châu
+/son-la/huyen-sop-cop 552 Huyện Sốp Cộp
+/son-la/huyen-van-ho 597 Huyện Vân Hồ
+/son-la/huyen-mai-son 162 Huyện Mai Sơn
+/son-la/huyen-quynh-nhai 315 Huyện Quỳnh Nhai
+/son-la/huyen-phu-yen 412 Huyện Phù Yên
+/son-la/huyen-muong-la 566 Huyện Mường La
+/son-la/huyen-song-ma 590 Huyện Sông Mã
+/son-la/thanh-pho-son-la 403 Thành Phố Sơn La
+/son-la/tinh-son-la 686 Tỉnh Sơn La
+/son-la/tp-son-la 779 Tp. Sơn La
+/quang-binh/thi-xa-ba-don 568 Thị Xã Ba Đồn
+/quang-binh/tinh-quang-binh 714 Tỉnh Quảng Bình
+/quang-binh/huyen-bo-trach 284 Huyện Bố Trạch
+/quang-binh/t-loc-dai 834 T.lộc Đại
+/quang-binh/thanh-pho-dong-hoi 165 Thành Phố Đồng Hới
+/quang-binh/thon-dong-giang 833 Thôn Đồng Giang
+/quang-binh/huyen-tuyen-hoa 370 Huyện Tuyên Hoá
+/quang-binh/huyen-minh-hoa 617 Huyện Minh Hoá
+/quang-binh/huyen-le-thuy 285 Huyện Lệ Thuỷ
+/quang-binh/huyen-quang-ninh 347 Huyện Quảng Ninh
+/quang-binh/huyen-quang-trach 400 Huyện Quảng Trạch
+/quang-tri/huyen-cam-lo 481 Huyện Cam Lộ
+/quang-tri/huyen-dao-con-co 768 Huyện Đảo Cồn Cỏ
+/quang-tri/huyen-da-krong 166 Huyện Đa Krông
+/quang-tri/thanh-pho-dong-ha 480 Thành Phố Đông Hà
+/quang-tri/huyen-gio-linh 522 Huyện Gio Linh
+/quang-tri/huyen-hai-lang 535 Huyện Hải Lăng
+/quang-tri/huyen-huong-hoa 331 Huyện Hướng Hoá
+/quang-tri/huyen-vinh-linh 529 Huyện Vĩnh Linh
+/quang-tri/huyen-trieu-phong 532 Huyện Triệu Phong
+/quang-tri/thi-xa-quang-tri 434 Thị Xã Quảng Trị
+/quang-tri/tinh-quang-tri 731 Tỉnh Quảng Trị
+/gia-lai/14-thong-nhat 838 14 Thống Nhất
+/gia-lai/17-le-hong-phong 837 17 Lê Hồng Phong
+/gia-lai/so-38-tran-cao-van 839 Số 38 Trần Cao Vân
+/gia-lai/to-5 836 Tổ 5
+/gia-lai/54-huynh-thuc-khang 835 54 Huỳnh Thúc Kháng
+/gia-lai/778-pham-van-dong 840 778 Phạm Văn Đồng
+/gia-lai/thi-xa-an-khe 242 Thị Xã An Khê
+/gia-lai/thi-xa-ayun-pa 251 Thị Xã Ayun Pa
+/gia-lai/huyen-kong-chro 310 Huyện Kông Chro
+/gia-lai/huyen-chu-puh 411 Huyện Chư Pưh
+/gia-lai/huyen-chu-prong 478 Huyện Chư Prông
+/gia-lai/huyen-chu-se 579 Huyện Chư Sê
+/gia-lai/huyen-chu-pah 601 Huyện Chư Păh
+/gia-lai/huyen-duc-co 336 Huyện Đức Cơ
+/gia-lai/huyen-dak-doa 642 Huyện Đak Đoa
+/gia-lai/huyen-dakpo 674 Huyện ĐakPơ
+/gia-lai/tinh-gia-lai 734 Tỉnh Gia Lai
+/gia-lai/huyen-ia-grai 600 Huyện Ia Grai
+/gia-lai/huyen-kbang 497 Huyện Kbang
+/gia-lai/huyen-krong-pa 500 Huyện Krông Pa
+/gia-lai/huyen-iapa 641 Huyện IaPa
+/gia-lai/huyen-phu-thien 735 Huyện Phú Thiện
+/gia-lai/huyen-mang-yang 739 Huyện Mang Yang
+/gia-lai/thanh-pho-pleiku 168 Thành Phố  Pleiku
+/bac-giang/thanh-pho-bac-giang 180 Thành Phố  Bắc Giang
+/bac-giang/tinh-bac-giang 717 Tỉnh Bắc Giang
+/bac-giang/huyen-son-dong 518 Huyện Sơn Động
+/bac-giang/huyen-yen-dung 354 Huyện Yên Dũng
+/bac-giang/huyen-lang-giang 467 Huyện Lạng Giang
+/bac-giang/huyen-hiep-hoa 398 Huyện Hiệp Hoà
+/bac-giang/huyen-viet-yen 181 Huyện Việt Yên
+/bac-giang/huyen-luc-nam 349 Huyện Lục Nam
+/bac-giang/huyen-yen-the 484 Huyện Yên Thế
+/bac-giang/huyen-luc-ngan 516 Huyện Lục Ngạn
+/bac-giang/huyen-tan-yen 517 Huyện Tân Yên
+/ha-tinh/thi-xa-ky-anh 185 Thị Xã Kỳ Anh
+/ha-tinh/huyen-ky-anh 337 Huyện Kỳ Anh
+/ha-tinh/huyen-cam-xuyen 187 Huyện Cẩm Xuyên
+/ha-tinh/huyen-can-loc 260 Huyện Can Lộc
+/ha-tinh/huyen-duc-tho 197 Huyện Đức Thọ
+/ha-tinh/thanh-pho-ha-tinh 184 Thành Phố Hà Tĩnh
+/ha-tinh/huyen-thach-ha 302 Huyện Thạch Hà
+/ha-tinh/huyen-loc-ha 330 Huyện Lộc Hà
+/ha-tinh/tinh-ha-tinh 763 Tỉnh Hà Tĩnh
+/ha-tinh/thi-xa-hong-linh 599 Thị Xã Hồng Lĩnh
+/ha-tinh/huyen-huong-son 329 Huyện Hương Sơn
+/ha-tinh/huyen-huong-khe 468 Huyện Hương Khê
+/ha-tinh/huyen-nghi-xuan 186 Huyện Nghi Xuân
+/ha-tinh/huyen-vu-quang 188 Huyện Vũ Quang
+/ninh-binh/thanh-pho-ninh-binh 200 Thành Phố Ninh Bình
+/ninh-binh/tinh-ninh-binh 559 Tỉnh Ninh Bình
+/ninh-binh/thanh-pho-tam-diep 488 Thành Phố Tam Điệp
+/ninh-binh/huyen-gia-vien 306 Huyện Gia Viễn
+/ninh-binh/huyen-hoa-lu 530 Huyện Hoa Lư
+/ninh-binh/huyen-kim-son 283 Huyện Kim Sơn
+/ninh-binh/huyen-yen-mo 293 Huyện Yên Mô
+/ninh-binh/huyen-nho-quan 397 Huyện Nho Quan
+/ninh-binh/huyen-yen-khanh 519 Huyện Yên Khánh
+/binh-thuan/huyen-ham-thuan-bac 426 Huyện Hàm Thuận Bắc
+/binh-thuan/huyen-bac-binh 470 Huyện Bắc Bình
+/binh-thuan/tinh-binh-thuan 765 Tỉnh Bình Thuận
+/binh-thuan/huyen-duc-linh 589 Huyện Đức Linh
+/binh-thuan/thi-xa-la-gi 340 Thị Xã La Gi
+/binh-thuan/huyen-ham-thuan-nam 374 Huyện Hàm Thuận Nam
+/binh-thuan/huyen-ham-tan 521 Huyện Hàm Tân
+/binh-thuan/huyen-tuy-phong 208 Huyện Tuy Phong
+/binh-thuan/huyen-tanh-linh 366 Huyện Tánh Linh
+/binh-thuan/huyen-phu-quy 389 Huyện Phú Quý
+/binh-thuan/thanh-pho-phan-thiet 218 Thành Phố  Phan Thiết
+/kon-tum/huyen-dak-ha 454 Huyện Đák Hà
+/kon-tum/huyen-dak-to 605 Huyện Đắk Tô
+/kon-tum/huyen-dak-glei 653 Huyện Đắk Glei
+/kon-tum/huyen-ia-hdrai 451 Huyện Ia H'Drai
+/kon-tum/huyen-ngoc-hoi 357 Huyện Ngọc Hồi
+/kon-tum/huyen-kon-plong 409 Huyện Kon Plông
+/kon-tum/huyen-kon-ray 437 Huyện Kon Rẫy
+/kon-tum/huyen-tu-mo-rong 444 Huyện  Tu Mơ Rông
+/kon-tum/huyen-sa-thay 753 Huyện Sa Thầy
+/kon-tum/thanh-pho-kon-tum 225 Thành Phố Kon Tum
+/kon-tum/tinh-kon-tum 721 Tỉnh Kon Tum
+/vinh-phuc/huyen-binh-xuyen 267 Huyện Bình Xuyên
+/vinh-phuc/huyen-me-linh-chuyen-ha-noi 680 Huyện Mê Linh (Chuyển Hà Nội)
+/vinh-phuc/huyen-tam-dao 325 Huyện Tam Đảo
+/vinh-phuc/huyen-tam-duong 509 Huyện Tam Dương
+/vinh-phuc/huyen-yen-lac 229 Huyện Yên Lạc
+/vinh-phuc/huyen-vinh-tuong 266 Huyện Vĩnh Tường
+/vinh-phuc/huyen-lap-thach 326 Huyện Lập Thạch
+/vinh-phuc/huyen-song-lo 604 Huyện Sông Lô
+/vinh-phuc/thanh-pho-vinh-yen 246 Thành Phố Vĩnh Yên
+/vinh-phuc/thanh-pho-phuc-yen 841 Thành Phố Phúc Yên
+/vinh-phuc/thi-xa-phuc-yen 508 Thị Xã Phúc Yên
+/vinh-phuc/tinh-vinh-phuc 687 Tỉnh Vĩnh Phúc
+/bac-lieu/thanh-pho-bac-lieu 272 Thành Phố Bạc Liêu
+/bac-lieu/tinh-bac-lieu 673 Tỉnh Bạc Liêu
+/bac-lieu/huyen-hoa-binh 561 Huyện Hoà Bình
+/bac-lieu/huyen-hong-dan 472 Huyện Hồng Dân
+/bac-lieu/huyen-dong-hai 439 Huyện Đông Hải
+/bac-lieu/thi-xa-gia-rai 234 Thị Xã Giá Rai
+/bac-lieu/huyen-phuoc-long 533 Huyện Phước Long
+/bac-lieu/huyen-vinh-loi 583 Huyện Vĩnh Lợi
+/yen-bai/thanh-pho-yen-bai 513 Thành Phố  Yên Bái
+/yen-bai/tinh-yen-bai 743 Tỉnh Yên Bái
+/yen-bai/huyen-yen-binh 463 Huyện Yên Bình
+/yen-bai/huyen-mu-cang-chai 661 Huyện Mù Cang Chải
+/yen-bai/huyen-van-chan 582 Huyện Văn Chấn
+/yen-bai/huyen-van-yen 321 Huyện Văn Yên
+/yen-bai/huyen-tran-yen 504 Huyện Trấn Yên
+/yen-bai/huyen-luc-yen 594 Huyện Lục Yên
+/yen-bai/huyen-tram-tau 675 Huyện Trạm Tấu
+/yen-bai/thi-xa-nghia-lo 499 Thị Xã Nghĩa Lộ
+/dien-bien/huyen-muong-ang 665 Huyện Mường Ảng
+/dien-bien/huyen-dien-bien 361 Huyện Điện Biên
+/dien-bien/thanh-pho-dien-bien-phu 452 Thành Phố Điện Biên Phủ
+/dien-bien/huyen-dien-bien-dong 693 Huyện Điện Biên Đông
+/dien-bien/tinh-dien-bien 697 Tỉnh Điện Biên
+/dien-bien/tp-dien-bien-phu 781 Tp Điện Biên Phủ
+/dien-bien/huyen-muong-cha 636 Huyện Mường Chà
+/dien-bien/huyen-tua-chua 741 Huyện Tủa Chùa
+/dien-bien/huyen-tuan-giao 696 Huyện Tuần Giáo
+/dien-bien/huyen-nam-po 348 Huyện Nậm Pồ
+/dien-bien/huyen-muong-nhe 755 Huyện Mường Nhé
+/dien-bien/thi-xa-muong-lay 356 Thị Xã Mường Lay
+/ha-giang/huyen-quan-ba 486 Huyện Quản Bạ
+/ha-giang/huyen-bac-me 450 Huyện Bắc Mê
+/ha-giang/huyen-bac-quang 558 Huyện Bắc Quang
+/ha-giang/huyen-quang-binh 647 Huyện Quang Bình
+/ha-giang/huyen-dong-van 702 Huyện Đồng Văn
+/ha-giang/thanh-pho-ha-giang 462 Thành Phố Hà Giang
+/ha-giang/tinh-ha-giang 738 Tỉnh Hà Giang
+/ha-giang/tp-ha-giang 780 Tp Hà Giang
+/ha-giang/huyen-hoang-su-phi 676 Huyện Hoàng Su Phì
+/ha-giang/huyen-vi-xuyen 362 Huyện Vị Xuyên
+/ha-giang/huyen-xin-man 565 Huyện Xín Mần
+/ha-giang/huyen-yen-minh 684 Huyện Yên Minh
+/ha-giang/huyen-meo-vac 703 Huyện Mèo Vạc
